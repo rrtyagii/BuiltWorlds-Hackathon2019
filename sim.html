@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Marked Map</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body background="images/Level 7 Drawings-page-002.jpg">
+
+<div id="container">
+
+  <canvas class="canvas" id="canvas2" width="5000" height="5000" >Your browser does not support the HTML5 canvas tag.</canvas>
+  </div>
+
+  <!-- First slider: X shift -->
+  <div class="slidecontainer">
+    <input type="range" min="0" max="1000" value="923" class="slider" id="myRange" orient="vertical">
+    <p>X Shift: <span id="demo"></span></p>
+  </div>
+
+  <!-- Second slider: Y shift -->
+  <div class="slidecontainer2">
+    <input type="range" min="0" max="1000" value="729" class="slider" id="myRange2" orient="vertical">
+    <p>Y Shift: <span id="demo2"></span></p>
+  </div>
+
+  <!-- Third slider: Size -->
+  <div class="slidecontainer3">
+  <input type="range" min="10" max="200" value="21" class="slider3" id="myRange3" orient="vertical">
+  <p>Size: <span id="demo3"></span></p>
+  </div>
+
+  <div class="buttonTest">
+    <button type="button" class="btn btn-warning btn-lg">Set</button>
+  </div>
+<script src="scripts/sim.js"></script>
+</body>
+</html>

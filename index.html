@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CS POV</title>
+
+  <!-- Bootstrap core CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">CS POV - Project Data Manager</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://docs.google.com/presentation/d/1IWaKaOYsQmW5edl8eRSPVAZP4GLGfg67S_h89hql9rg/edit?usp=sharing">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Demo
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/OntologicalSin/BuiltWorlds2019">Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sim.html">Simulation</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">CS POV</h1>
+        <p class="lead">Construction Site Photo Organization and Visualization</p>
+
+<center>
+          <div class="card" style="width: 18rem;">
+          <img src="images/icon.jpg" class="card-img-top" height="200" width="200">
+          <div class="card-body">
+          <h5 class="card-title">Image Organization Portal</h5>
+          <br>
+          <p class="card-text">Please select project image contents for localization and visualization.</p>
+          <br>
+                    <!-- handle file upload -->
+          <form id='file-catcher'>
+              <input id='file-input' type='file' multiple/>
+              <br>
+              <br>
+              <button class="btn btn-primary" type='submit'>
+              Process Data
+              </button>
+              <br>
+          </form>
+              <div id='file-list-display'></div>
+
+          </div>
+          </div>
+</center>
+      </div>
+      <br>  <br>  <br>  <br>  <br>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="scripts/script.js"></script>
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

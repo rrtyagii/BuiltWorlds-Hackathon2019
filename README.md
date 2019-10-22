@@ -1,12 +1,18 @@
-# BuiltWorlds-Hackathon2019
+# CS POV
 
-This repository contains the project that I participated in. It was a challenge presented by the Clayco, Inc. 
+CS POV is a construction site processing, organization, and visualization platform that provides image aggregation and localization capabilities to construction management for auditing and regulation purposes.
 
-The project is a construction site processing, organising and visualising platfrom that provides image aggregation and localisation capabilities to construction management for auditing and regulation purposes. 
+The project was conceived for BuiltWorlds2019 Hackathon. We use a dataset of images to sort and represent a construction site based on photo and report location gathered from geo-location metadata provided by a company or streamlined image collection app.
 
-## What we did :-
-- Identified and classified existing project images and through analysis eliminated those that had redundant content
+## Getting Started
 
-- Aligned the given data set with the project time line and allowing user to approve which images are to be eliminated from the set
+Use the live demo provided at https://ontologicalsin.github.io/bw/ with the images located in the `/images` folder
 
-- Created a platform to upload the images to then construct a timeline on the blueprint of that project
+## Built With
+
+JavaScript, HTML, CSS
+
+## Authors
+
+* **Nicholas Lyubenko** - (https://github.com/OntologicalSin)
+* **Mark Klinchin** - (https://github.com/nexen01)

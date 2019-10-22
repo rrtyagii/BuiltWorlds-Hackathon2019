@@ -1,0 +1,135 @@
+.slidecontainer2 {
+  width: 25px; /* Width of the outside container */
+  position: absolute;
+  top: 250px;
+  right: 450px;
+}
+.slidecontainer {
+  width: 25px; /* Width of the outside container */
+  position: absolute;
+  top: 250px;
+  right: 500px;
+}
+#container { position: relative; }
+.canvas { position: absolute; top: 0; left: 0; }
+.buttonTest {
+  width: 50px; /* Width of the outside container */
+  position: absolute;
+  top: 575px;
+  right: 450px;
+}
+/* The slider itself */
+.slider {
+  -webkit-appearance: slider-vertical;  /* Override default CSS styles */
+  appearance: none;
+  width: 25px; /* Full-width */
+  height: 250px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: slider-vertical; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #FF7000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #FF7000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+body{
+   background-repeat: no-repeat;
+   background-size: 1210px 864px;
+}
+
+/* The slider itself */
+.slider2 {
+  -webkit-appearance: slider-vertical;  /* Override default CSS styles */
+  appearance: none;
+  width: 25px; /* Full-width */
+  height: 250px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider2:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider2::-webkit-slider-thumb {
+  -webkit-appearance: slider-vertical; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #FF7000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider2::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #FF7000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slidecontainer3 {
+  width: 25px; /* Width of the outside container */
+  position: absolute;
+  top: 250px;
+  right: 400px;
+}
+
+/* The slider itself */
+.slider3 {
+  -webkit-appearance: slider-vertical;  /* Override default CSS styles */
+  appearance: none;
+  width: 25px; /* Full-width */
+  height: 250px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider3:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider3::-webkit-slider-thumb {
+  -webkit-appearance: slider-vertical; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #FF7000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider3::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #FF7000; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
